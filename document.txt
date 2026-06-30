@@ -1,0 +1,16 @@
+
+
+
+Retrieval-Augmented Generation, commonly known as RAG, is a technique that combines large language models with external knowledge sources. Instead of relying only on what the model learned during training, RAG allows the system to search through a database of documents and retrieve relevant information before generating an answer. This makes responses more accurate and up to date.
+
+The process works in several steps. First, documents are split into smaller chunks of text. Each chunk is then converted into a numerical representation called an embedding, which captures the meaning of the text. These embeddings are stored in a vector database, which allows for fast similarity searches.
+
+When a user asks a question, the question itself is also converted into an embedding. The system then searches the vector database to find the chunks most similar in meaning to the question. These relevant chunks are retrieved and passed to the language model along with the original question.
+
+The language model then generates an answer using both its own knowledge and the retrieved information. This is especially useful for tasks involving private documents, recent events, or specialized knowledge that the model was not originally trained on.
+
+RAG is widely used in applications such as customer support chatbots, medical assistants, and educational tools, where accuracy and access to specific information are critical. It helps reduce hallucinations, which occur when a language model generates information that sounds correct but is actually false.
+
+One common challenge in building RAG systems is choosing the right chunk size and overlap when splitting documents. If chunks are too small, important context may be lost. If chunks are too large, irrelevant information may be included, making it harder for the model to find the right answer.
+
+Another important factor is the choice of embedding model and vector database, since these directly affect the quality and speed of retrieval. Popular vector databases include FAISS, Pinecone, and Chroma.

@@ -1,0 +1,20 @@
+
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.pyc
+venv/
+env/
+
+# FAISS index (if you used it earlier)
+faiss_index/
+
+# IDE/editor junk
+.vscode/
+.idea/
+
+# OS junk
+.DS_Store
+Thumbs.db
