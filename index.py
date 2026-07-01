@@ -16,7 +16,7 @@ embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-
 from pinecone import Pinecone, ServerlessSpec
 from langchain_pinecone import PineconeVectorStore
 
-pip install langchain-tavily
+
 
 llm = ChatGroq(
     model="llama-3.3-70b-versatile",

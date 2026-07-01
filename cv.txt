@@ -1,0 +1,49 @@
+
+
+Name: Khair-Eddine Ladhari
+Email: khaireddine@email.com
+Phone: +216 XX XXX XXX
+Location: Tunisia
+GitHub: github.com/khair-eddine-ladhari
+LinkedIn: linkedin.com/in/khair-eddine-ladhari
+
+EDUCATION
+Bachelor's Degree in Computer Science
+University of Tunisia — 2022 to present
+
+SKILLS
+Programming Languages: Python, JavaScript, TypeScript
+Backend Frameworks: FastAPI, Node.js, Express.js
+AI & Machine Learning: LangChain, LangGraph, OpenAI API, Groq, HuggingFace
+Vector Databases: Pinecone
+Databases: MongoDB, PostgreSQL
+DevOps & Tools: Git, GitHub, Docker (basic)
+Other: REST APIs, RAG pipelines, Embeddings, Prompt Engineering
+
+PROJECTS
+
+MedAssist — AI Medical Platform
+- Full-stack medical platform built with FastAPI (Python backend) and React (frontend)
+- Integrated AI features including symptom checking and medical Q&A
+- Used MongoDB for data storage and JWT for authentication
+- Deployed with REST API architecture
+
+Learning AI Assistant — RAG-based Study Tool
+- Built a Retrieval-Augmented Generation (RAG) pipeline for students
+- Used LangChain, Pinecone vector database, and OpenAI embeddings
+- Students can upload documents and ask questions about them
+- FastAPI backend with React frontend
+
+Document Q&A RAG Pipeline
+- Pure Python RAG implementation using LangChain and Pinecone
+- HuggingFace embeddings (sentence-transformers/all-MiniLM-L6-v2)
+- Groq (Llama 3.3 70B) for fast LLM inference
+- Semantic search for accurate document retrieval
+
+LANGUAGES
+Arabic: Native
+French: Fluent
+English: Intermediate
+
+INTERESTS
+Artificial Intelligence, LLM Applications, Agent Systems, Full-Stack Development
